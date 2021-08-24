@@ -13,6 +13,9 @@
     "start": "node server/index.js",
     "build": "cd client && yarn install && yarn run build"
   },
+  "engines": {
+    "node": "14.16.0"
+  },
   "devDependencies": {
     "nodemon": "^2.0.12"
   }
